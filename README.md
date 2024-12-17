@@ -53,7 +53,7 @@ User can view the name of exercises performed along with the date and number of 
 <img src="https://github.com/user-attachments/assets/e6fcacae-5f1c-4871-8808-ee1287381011" alt="Login Page" width="240" height="500">
 
 ### 7. My Profile Page
-User can view their personal details and can change their password from profile page.They can also logout from this page.
+User can view their personal details and can change their password from profile page. They can also logout from this page.
 
 Made by:
 Priyanshi
