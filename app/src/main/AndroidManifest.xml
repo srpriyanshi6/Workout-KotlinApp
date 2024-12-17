@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HomeWorkout"
+        tools:targetApi="30">
+        <activity
+            android:name=".activities.ChoicePage"
+            android:exported="false" />
+        <activity
+            android:name=".activities.IntroPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.WarmupExerciseScreen"
+            android:exported="false" />
+        <activity
+            android:name=".activities.WarmupExerciseStart"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FinishExerciseScreen"
+            android:exported="false" />
+        <activity
+            android:name=".activities.StartAgainExercise"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ExerciseScreen"
+            android:exported="false" />
+        <activity
+            android:name=".activities.StartExerciseWithInput"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LoginRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.WorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.QuickWorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ExercisesWorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MyHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MyProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ExerciseAbsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ExerciseChestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ExerciseBackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ExerciseHandsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ExerciseLegsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ForgetPasswordActivityProfile"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SignInActivity"
+            android:exported="false">
+
+        </activity>
+    </application>
+
+</manifest>
